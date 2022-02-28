@@ -1,0 +1,53 @@
+body {
+  background-color: #f9fafb;
+}
+
+.container {
+  width: 400px;
+  margin: 120px auto;
+  padding: 30px 40px;
+  background-color: #fff;
+  box-shadow: 0px 0px 16px -6px rgba(0, 0, 0, 0.6);
+}
+
+.head-title {
+  margin: 0 0 20px 0;
+  text-align: center;
+  font-size: 25px;
+}
+.input-label {
+  color: #666;
+  margin: 0 0 10px 0;
+}
+
+.input {
+  width: 320px;
+  height: 40px;
+  padding: 10px;
+  border: 2px solid #eee;
+  border-radius: 5px;
+}
+
+.input:focus {
+  outline: 2px solid #ccc;
+}
+
+.submit-button {
+  width: 320px;
+  height: 40px;
+  margin: 20px 0 0 0;
+  text-align: center;
+  color: #fff;
+  background-color: #3498db;
+  border-radius: 4px;
+}
+
+.validation-massage {
+  color: red;
+  font-size: 13px;
+  margin: 5px 0 0 0;
+}
+
+.hidden {
+  visibility: hidden;
+}
