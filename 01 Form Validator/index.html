@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Form Validator</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="reset.css" />
   </head>
@@ -12,13 +12,53 @@
     <div class="container">
       <h1 class="head-title">Register With Us</h1>
       <form>
-        <p class="username input-label">Username</p>
-        <input
-          type="text"
-          class="input username-input"
-          placeholder="Enter username"
-        />
-        <p class="validation-massage hidden username-validation">aaa</p>
+        <label>
+          <p class="username input-label">Username</p>
+          <input
+            type="text"
+            class="input username-input"
+            placeholder="Enter username"
+          />
+        </label>
+        <p class="validation-massage hidden username-validation">
+          invalid message
+        </p>
+
+        <label>
+          <p class="username input-label">Email</p>
+          <input
+            type="text"
+            class="input email-input"
+            placeholder="Enter email"
+          />
+        </label>
+        <p class="validation-massage hidden email-validation">
+          invalid message
+        </p>
+
+        <label>
+          <p class="username input-label">Password</p>
+          <input
+            type="password"
+            class="input password-input"
+            placeholder="Enter password"
+          />
+        </label>
+        <p class="validation-massage hidden password-validation">
+          invalid message
+        </p>
+
+        <label>
+          <p class="username input-label">Confirm Password</p>
+          <input
+            type="password"
+            class="input confirm-password-input"
+            placeholder="Enter password"
+          />
+        </label>
+        <p class="validation-massage hidden confirm-password-validation">
+          invalid message
+        </p>
 
         <input class="submit-button" type="submit" value="Submit" />
       </form>

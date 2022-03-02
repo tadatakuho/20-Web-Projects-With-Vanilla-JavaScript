@@ -17,19 +17,19 @@ body {
 }
 .input-label {
   color: #666;
-  margin: 0 0 10px 0;
+  margin: 20px 0 10px 0;
 }
 
 .input {
   width: 320px;
   height: 40px;
   padding: 10px;
-  border: 2px solid #eee;
+  outline: 2px solid #eee;
   border-radius: 5px;
 }
 
 .input:focus {
-  outline: 2px solid #ccc;
+  outline: 3px solid #ccc;
 }
 
 .submit-button {
